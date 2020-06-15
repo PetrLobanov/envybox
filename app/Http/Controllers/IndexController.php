@@ -31,7 +31,8 @@ class IndexController extends Controller
 
             } else {
 
-                $save = $form->insert($request->formData);
+                //$save = $form->insert($request->formData);
+                $save = $form->insertFile($request->formData);
 
                 echo $save;
 

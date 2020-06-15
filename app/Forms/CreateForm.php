@@ -2,6 +2,8 @@
 
 namespace App\Forms;
 
+use Illuminate\Support\Facades\Storage;
+
 Class CreateForm {
 
     private $title;
@@ -57,5 +59,26 @@ Class CreateForm {
 
     }
 
+
+    public function insertFile($data) {
+
+        $message = 'name - '.$data['name'].PHP_EOL.
+            'phone - '.$data['phone'].PHP_EOL.
+            'message - '.$data['message'] ?? '';
+
+
+        if (Storage::disk('local')->put('create-form-'.
+            date('Y-m-d_H:i:s'), $message)) {
+
+            return 'Данные сохранены!';
+
+        } else {
+
+            return 'Ошибка сохранения данных(';
+
+        }
+
+
+    }
 
 }
