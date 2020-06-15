@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e5a423a-03c2-4025-85ae-83910235acfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Forms/CreateForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/CreateForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/CreateForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/CreateFormOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/Factory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +20,16 @@
     <session id="1691828564">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,7 +42,7 @@
           <entry key="html" value="1" />
           <entry key="js" value="10" />
           <entry key="json" value="3" />
-          <entry key="php" value="18" />
+          <entry key="php" value="20" />
           <entry key="scss" value="1" />
           <entry key="txt" value="1" />
           <entry key="vue" value="1" />
@@ -53,7 +55,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="10" />
-          <entry key="PHP" value="17" />
+          <entry key="PHP" value="19" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="1" />
           <entry key="Vue.js" value="1" />
@@ -61,12 +63,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
+          <entry key="dummy" value="9" />
           <entry key="env" value="14" />
           <entry key="html" value="10" />
           <entry key="js" value="14" />
           <entry key="json" value="14" />
-          <entry key="php" value="3140" />
+          <entry key="php" value="3684" />
           <entry key="scss" value="19" />
           <entry key="vue" value="1126" />
         </counts>
@@ -77,8 +79,8 @@
           <entry key="HTML" value="10" />
           <entry key="JSON" value="14" />
           <entry key="JavaScript" value="14" />
-          <entry key="PHP" value="2874" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PHP" value="3418" />
+          <entry key="PLAIN_TEXT" value="23" />
           <entry key="SCSS" value="19" />
           <entry key="Vue.js" value="1126" />
         </counts>
@@ -93,10 +95,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Forms/CreateForm.php">
+        <entry file="file://$PROJECT_DIR$/app/Forms/CreateFormOne.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+            <state relative-caret-position="405">
+              <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -104,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="294">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -114,18 +116,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Forms/Factory.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/Forms/CreateFormTwo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
+        <entry file="file://$PROJECT_DIR$/app/Forms/Factory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <marker date="1591524099000" expanded="true" signature="88:351" ph="..." />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -147,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/Forms/CrateFormOne.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Forms/Factory.php" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
@@ -158,6 +160,9 @@
         <option value="/private/var/folders/2d/lcb6nt6x7zx46dbzk8pqbklc0000gn/T/fz3temp-2/index.html" />
         <option value="/private/var/folders/2d/lcb6nt6x7zx46dbzk8pqbklc0000gn/T/fz3temp-2/index.php" />
         <option value="$PROJECT_DIR$/app/Forms/CreateForm.php" />
+        <option value="$PROJECT_DIR$/app/Forms/CreateFormOne.php" />
+        <option value="$PROJECT_DIR$/app/Forms/Factory.php" />
+        <option value="$PROJECT_DIR$/app/Forms/CreateFormTwo.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
       </list>
     </option>
@@ -372,18 +377,19 @@
       <workItem from="1591624183227" duration="282000" />
       <workItem from="1591713821689" duration="539000" />
       <workItem from="1592143083528" duration="634000" />
-      <workItem from="1592201194418" duration="1321000" />
+      <workItem from="1592201194418" duration="1590000" />
+      <workItem from="1592215325869" duration="7230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23725000" />
+    <option name="totallyTimeSpent" value="31224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,12 +511,16 @@
     </entry>
     <entry file="file:///private/var/folders/2d/lcb6nt6x7zx46dbzk8pqbklc0000gn/T/fz3temp-2/index.html" />
     <entry file="file:///private/var/folders/2d/lcb6nt6x7zx46dbzk8pqbklc0000gn/T/fz3temp-2/index.php" />
-    <entry file="file://$PROJECT_DIR$/app/Forms/Factory.php">
+    <entry file="file://$PROJECT_DIR$/storage/app/file.txt" />
+    <entry file="file://$PROJECT_DIR$/storage/app/create-form-2020-06-15_06:46:43">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/create-form-2020-06-15_06:47:32">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
+        <state relative-caret-position="525">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <marker date="1591524099000" expanded="true" signature="88:351" ph="..." />
@@ -518,26 +528,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/create-form-2020-06-15_06:46:43">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/create-form-2020-06-15_06:47:32">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Forms/CreateForm.php">
+    <entry file="file://$PROJECT_DIR$/app/Forms/CreateFormOne.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        <state relative-caret-position="405">
+          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Forms/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Forms/CreateFormTwo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="294">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>

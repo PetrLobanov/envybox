@@ -2,25 +2,21 @@
 
 namespace App\Forms;
 
-use App\Forms;
-
 class Factory {
 
     public static function getForms($instance) {
 
-        switch ($instance) {
+        $className = "App\Forms\\".$instance;
 
-            case 'CreateForm':
+        if (class_exists( $className ) ) {
 
-                    return new Forms\CreateForm();
+            return new $className();
 
-                break;
+        } else {
 
-            default:
-                return false;
+            dd('Form not found');
 
         }
-
 
 
     }

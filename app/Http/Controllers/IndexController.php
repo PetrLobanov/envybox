@@ -12,10 +12,7 @@ class IndexController extends Controller
 
     public function index(Request $request) {
 
-        $form = Factory::getForms('CreateForm');
-
-        if ($form === false) abort(403);
-
+        $form = Factory::getForms('CreateFormOne');
 
         if ($request->ajax()) {
 

@@ -1,10 +1,9 @@
 <?php
 
 namespace App\Forms;
-
 use Illuminate\Support\Facades\Storage;
 
-Class CreateForm {
+Class CreateFormTwo {
 
     private $title;
     private $body;
@@ -12,7 +11,7 @@ Class CreateForm {
 
     public function __construct() {
 
-        $this->title = 'Form One';
+        $this->title = 'Form Two';
         $this->body = [
             ['type' => 'text', 'name' => 'name', 'placeholder' => 'Ваше имя'],
             ['type' => 'text', 'name' => 'phone', 'placeholder' => 'Ваш телефон'],
@@ -67,7 +66,7 @@ Class CreateForm {
             'message - '.$data['message'] ?? '';
 
 
-        if (Storage::disk('local')->put('create-form-'.
+        if (Storage::disk('local')->put('create-form-two-'.
             date('Y-m-d_H:i:s'), $message)) {
 
             return 'Данные сохранены!';
@@ -82,3 +81,5 @@ Class CreateForm {
     }
 
 }
+
+
